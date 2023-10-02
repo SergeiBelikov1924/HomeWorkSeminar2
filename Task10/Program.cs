@@ -9,7 +9,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int SecondNumber (int num)
 {
-    return num%100/10;
+    return number%100/10;
 }
 int remainder=SecondNumber(number);
-Console.WriteLine(remainder);
+Console.WriteLine($"Вторая цифра -> {remainder}");
